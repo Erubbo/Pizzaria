@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 95%;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    z-index: 9999;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 70px;
+    list-style: none;
+
+
+}
+
+nav ul#left{
+    float: left;
+}
+
+nav ul#right{
+    float: right;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 80%;
+}
+
+nav ul li a#account{
+    border: 1px solid white;
+    padding: 9px 29px;
+}
+
+nav ul li a:hover{
+    background-color: #f2b705;
+    transition-duration: 0.8s;
+}
+
+nav ion-icon{
+    width: 45px;
+    height: 45px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+nav ion-icon:hover{
+    color: #f2b705;
+    cursor: pointer;
+}
+
+#call{
+    
+}
