@@ -1,0 +1,57 @@
+*{
+    font-size: 16px;
+}
+h1,h2,h3{
+    font-family: Fredericka the Great, cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d90404;
+}
+
+h4,h5,h6{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #f2b705;
+}
+
+h1{
+    font-size: 600%;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 400%;
+    font-weight: 200;
+}
+
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+
+/* ELEMENTOS HEADER */
+
+header div#call h1{
+    color: white;
+    text-shadow: 4px 6px 10px black;
+}
+
+header div#call h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px black;
+    margin-bottom: 55px;
+}
+
+header div#call a{
+    font-size: 110%;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 80px;
+    background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35)50%, rgba(6,89,2,35) 100%);
+}
+
+/* SUNDAY */
+

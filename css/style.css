@@ -19,8 +19,6 @@ nav ul{
     justify-content: left;
     margin-top: 70px;
     list-style: none;
-
-
 }
 
 nav ul#left{
@@ -62,6 +60,60 @@ nav ion-icon:hover{
     cursor: pointer;
 }
 
-#call{
-    
+section{
+    padding: 55px 0 80px;
+}
+
+header{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0)), url(../img/secao08-background-capa.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 1024px;
+
+    border-top: 5px solid #078c31;
+}
+
+header div#call{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 30%;
+    left: auto;
+}
+
+section.sunday{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.sunday-left, .sunday-right{
+    position: relative;
+    width: 15%;
+}
+
+.sunday-center{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.keys-master{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.key-point{
+    text-align: center;
+    width: 25%;
 }
