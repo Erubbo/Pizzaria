@@ -71,7 +71,6 @@ header{
     background-position: center center;
     width: 100%;
     height: 1024px;
-
     border-top: 5px solid #078c31;
 }
 
@@ -116,4 +115,91 @@ section.sunday{
 .key-point{
     text-align: center;
     width: 25%;
+}
+
+.key-point ion-icon{
+    width: 75px;
+    height: 75px;
+    color: #F03733;
+}
+
+div.leaf1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-image: url(../img/secao09-folha1.png);
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 150%;
+}
+
+div.shrimp{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    background: url(../img/secao09-camarao.jpg) no-repeat;
+    width: 150%;
+    height: 150%;
+}
+
+div.leaf2{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    background-image: url(../img/secao09-folha2.png);
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 150%;
+}
+
+div.leaf3{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background: url(../img/secao09-folha3.png) no-repeat;
+    width: 160%;
+    height: 150%;
+}
+
+div.tomato{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    background: url(../img/secao09-tomate.png) no-repeat;
+    width: 160%;
+    height: 150%;
+}
+
+div.cheese{
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    background: url(../img/secao09-queijo.jpg) no-repeat;
+    width: 160%;
+    height: 150%;
+}
+
+/* Pizza */
+
+section.pizza{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(../img/secao10-background-secao-pizza.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.master-options{
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.pizza-options{
+    width: 33.3%;
+    text-align: center;
+    margin: 5px 0;
 }

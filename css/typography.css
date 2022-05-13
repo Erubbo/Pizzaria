@@ -24,6 +24,15 @@ h2{
     font-weight: 200;
 }
 
+h2::after{
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: "";
+}
+
 p, li, a{
     font-family: 'Open Sans', sans-serif;
     color: #404040;
@@ -55,3 +64,31 @@ header div#call a{
 
 /* SUNDAY */
 
+div.key-master h4{
+    color: #404040;
+}
+
+.key-point h4:after{
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: "";
+}
+
+/* pizza */
+
+section.pizza p.destaque{
+    color: white;
+    width: 40%;
+}
+
+section.pizza ul li{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+    
