@@ -1,0 +1,82 @@
+/* TIPOGRAFIA */
+p.keys, section.pizza p.destaque,
+ section#opnion p.keys {
+    width:80%
+}
+
+
+/* HEADER */
+
+nav {
+    width:100%;
+    left:0;
+    padding-right: 10px;
+}
+
+nav div {
+    width: 150px;
+    height: 130px;
+    background-position: center bottom;
+}
+
+
+/* FINAL DE SEMANA */
+div.sunday-left, div.sunday-right {
+    display: none;
+}
+
+div.sunday-center {
+    width: 95%;
+}
+
+/* pizza */
+div.master-options { 
+    width: 95%;
+}
+
+/* testemunhos */
+div.center-opnion {
+    width: 680px;
+}
+
+div.opnion-left, div.opnion-right {
+    display: none;
+}
+
+/* transicao */
+div.plane_opnion {
+    display: none;
+}
+
+/* planos */
+div#planos-janela {
+    width:100%;
+}
+
+div.planos { 
+    margin: 80px 5px;
+}
+
+@media screen and (max-width:940px) {
+    div.planos {
+        width:220px;
+    }
+}
+
+/* FOOTER */
+footer div#mapa, footer div#info {
+    width: 45%;
+}
+
+footer div#info {
+    margin-right:35px;
+}
+
+
+footer div#redes-sociais ion-icon {
+    width:10%
+}
+
+footer div#pizza-rodape-decoracao {
+    display: none;
+}
